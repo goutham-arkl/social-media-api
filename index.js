@@ -31,7 +31,7 @@ app.use((req, res, next) => {
 app.use(express.json()); 
 app.use(
   cors({
-    origin: ["http://localhost:3000","https://www.zoko-media.cf","https://api.zoko-media.cf","https://admin.zoko-media.cf","http://localhost:4001"],
+    origin: ["http://localhost:3000","https://www.nutranation.ml","https://nutranation.ml","https://server.nutranation.ml","https://admin.nutranation.ml","http://localhost:4001"],
   })
 ); 
 app.use(cookieParser());
